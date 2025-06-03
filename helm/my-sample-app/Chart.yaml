@@ -1,0 +1,4 @@
+apiVersion: v2
+name: my-sample-app
+version: 0.1.0
+description: Sample app deployed by Helm

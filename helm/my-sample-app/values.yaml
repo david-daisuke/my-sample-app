@@ -1,0 +1,12 @@
+image:
+  repository: urdavid/my-sample-app
+  tag: latest
+
+service:
+  type: NodePort
+  port: 80
+  nodePort: 30081
+ingress:
+  enabled: false
+server:
+  insecure: true
